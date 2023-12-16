@@ -1,0 +1,190 @@
+header{
+    width: 98vw;
+    height: 100px;
+    background-color:rgba(255, 255, 255, 0.499);
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav .name li{
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgba(35, 34, 34, 0.756);
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+.logo{
+    width: 90px;
+    margin-top: -40px;
+}
+
+.l{
+    width: 90px;
+    margin-top: -40px;
+}
+
+.l:hover{
+    scale: 1.2;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    scale: 1.2;
+    transition: 2s;
+    cursor: pointer;
+}
+
+nav .name li:hover{
+    scale: 1.2;
+    color: black;
+    cursor: pointer;
+}
+
+.name {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 30vw;
+    margin-left: 0px;
+}
+
+.n2{
+    width: 60vw;
+}
+
+.n2 li{
+    font-size: 1.1rem;
+    color: rgba(35, 34, 34, 0.756);
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.n2 li:hover{
+    scale: 1.2;
+    color: black;
+    cursor: pointer;
+}
+
+.li{
+    display: flex;
+    justify-content: space-around;
+}
+.llogo{
+    width: 40px;
+    margin-top: -8px;
+}
+
+.fl{
+    display: flex;
+    justify-content: space-around;
+}
+
+.b1{
+    border-radius: 20px;
+    height: 9vh;
+    width: 12vw;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.807);
+    font-weight: 600;
+    margin-left: 0px;
+}
+
+.b2{
+    border-radius: 20px;
+    height: 9vh;
+    width: 12vw;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.807);
+    font-weight: 600; 
+    margin-left: 0px;
+    margin-right: 450px;
+}
+
+
+
+.into{
+    width: 70vw;
+}
+
+.mde{
+    margin-top: 15px;
+    width: 20vw;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 30px;
+}
+
+.b1:hover,.b2:hover{
+    scale: 1.2;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    width: 12vw;
+}
+
+ul{
+    list-style: none;
+}
+.p1{
+    display: grid;
+    }
+
+
+
+
+
+
+
+
+.i{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sa:hover{
+    scale: 1.1;
+    color: rgba(211, 18, 18, 0.686);
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+}
+
+.flex ul{
+    list-style: none;
+}
+
+.flex ul li:hover{
+    scale: 1.1;
+    color: rgba(211, 18, 18, 0.686);
+    cursor: pointer;
+}
